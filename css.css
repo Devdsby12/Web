@@ -1,0 +1,207 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a89191;
+}
+.box{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 100vw;
+    height: 100vh;
+    gap: 10px;
+}
+.icons1{
+    background-color: #921010;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+     
+}
+.icons1:hover{
+    background-color: #3520ac;
+    transition:all 0.5s ease;
+    transform: scale(1.2);
+    transform: rotate(30deg);
+    animation: shadow 1s ease-in-out infinite alternate;
+
+}
+.icons2{
+    background-color: #430b0b;
+    border: #430b0b solid 1px; 
+     border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons3{
+    background-color: #652222;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons4{
+    background-color: #430b0b;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons5{
+    background-color: #921010;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons6{
+    background-color: #430b0b;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons7{
+    background-color: #921010;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons8{
+    background-color: #430b0b;
+    border: #430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons9{
+    background-color: #652222;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons10{
+    background-color: #430b0b;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons11{
+    background-color: #921010;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons12{
+    background-color: #430b0b;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons13{
+    background-color: #921010;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons14{
+    background-color: #430b0b;
+    border: #430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons15{
+    background-color: #652222;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons16{
+    background-color: #430b0b;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons17{
+    background-color: #921010;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+.icons18{
+    background-color: #430b0b;
+    border:#430b0b solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+
+@keyframes shadow{
+    from{
+        
+    }
+    to{
+        box-shadow: 0px 0px 20px 5px #430b0b;
+    }
+}
+#nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+#google{
+    height: 100vh;
+    align-self: center;
+    justify-self: center;
+}
