@@ -1,0 +1,354 @@
+# Most Useful & Commonly Used HTML Tags (Grouped Properly)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- BASIC META -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website description">
+  <meta name="keywords" content="html, css, javascript">
+  <meta name="author" content="Dev">
+
+  <title>My Website</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FAVICON -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- JAVASCRIPT -->
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <!-- ========================= -->
+  <!-- LAYOUT / STRUCTURE TAGS -->
+  <!-- ========================= -->
+
+  <header>
+    Website Header
+  </header>
+
+  <nav>
+    Navigation Bar
+  </nav>
+
+  <main>
+
+    <section>
+      <h2>Section</h2>
+    </section>
+
+    <article>
+      <h2>Article</h2>
+      <p>Independent content like blog post.</p>
+    </article>
+
+    <aside>
+      Sidebar / Ads / Extra Info
+    </aside>
+
+  </main>
+
+  <footer>
+    Website Footer
+  </footer>
+
+
+  <!-- ========================= -->
+  <!-- TEXT TAGS -->
+  <!-- ========================= -->
+
+  <h1>Main Heading</h1>
+  <h2>Sub Heading</h2>
+  <h3>Small Heading</h3>
+  <h4>Heading</h4>
+  <h5>Heading</h5>
+  <h6>Heading</h6>
+
+  <p>This is a paragraph.</p>
+
+  <span>Inline Text</span>
+
+  <strong>Important Bold Text</strong>
+
+  <em>Italic Emphasized Text</em>
+
+  <mark>Highlighted Text</mark>
+
+  <small>Small Text</small>
+
+  <del>Deleted Text</del>
+
+  <ins>Inserted Text</ins>
+
+  <br>
+
+  <hr>
+
+  <blockquote>
+    Long quotation block.
+  </blockquote>
+
+  <code>
+    console.log("hello")
+  </code>
+
+  <pre>
+Preserves spaces
+and line breaks.
+  </pre>
+
+
+  <!-- ========================= -->
+  <!-- LINKS -->
+  <!-- ========================= -->
+
+  <a href="https://google.com" target="_blank">
+    Open Google
+  </a>
+
+
+  <!-- ========================= -->
+  <!-- MEDIA TAGS -->
+  <!-- ========================= -->
+
+  <img src="image.jpg" alt="Description" width="300">
+
+  <video controls width="400">
+    <source src="movie.mp4" type="video/mp4">
+  </video>
+
+  <audio controls>
+    <source src="song.mp3" type="audio/mpeg">
+  </audio>
+
+  <iframe src="https://example.com"></iframe>
+
+
+  <!-- ========================= -->
+  <!-- LIST TAGS -->
+  <!-- ========================= -->
+
+  <!-- Unordered List -->
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+
+  <!-- Ordered List -->
+  <ol>
+    <li>Step 1</li>
+    <li>Step 2</li>
+  </ol>
+
+  <!-- Description List -->
+  <dl>
+    <dt>HTML</dt>
+    <dd>Markup Language</dd>
+  </dl>
+
+
+  <!-- ========================= -->
+  <!-- TABLE TAGS -->
+  <!-- ========================= -->
+
+  <table border="1">
+
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Dev</td>
+        <td>22</td>
+      </tr>
+    </tbody>
+
+  </table>
+
+
+  <!-- ========================= -->
+  <!-- FORM TAGS -->
+  <!-- ========================= -->
+
+  <form action="/submit" method="POST">
+
+    <fieldset>
+      <legend>User Info</legend>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter name">
+
+      <br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+
+      <br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password">
+
+      <br><br>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date">
+
+      <br><br>
+
+      <label for="file">Upload:</label>
+      <input type="file" id="file">
+
+      <br><br>
+
+      <label>
+        <input type="checkbox">
+        Accept Terms
+      </label>
+
+      <br><br>
+
+      <label>
+        <input type="radio" name="gender">
+        Male
+      </label>
+
+      <label>
+        <input type="radio" name="gender">
+        Female
+      </label>
+
+      <br><br>
+
+      <textarea rows="5" cols="30"></textarea>
+
+      <br><br>
+
+      <select>
+        <option>India</option>
+        <option>USA</option>
+      </select>
+
+      <br><br>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+
+    </fieldset>
+
+  </form>
+
+
+  <!-- ========================= -->
+  <!-- CONTAINER TAGS -->
+  <!-- ========================= -->
+
+  <div class="card" id="main-card">
+    Block Container
+  </div>
+
+  <span>
+    Inline Container
+  </span>
+
+
+  <!-- ========================= -->
+  <!-- USEFUL ATTRIBUTES -->
+  <!-- ========================= -->
+
+  <div
+    id="unique-id"
+    class="box active"
+    title="Hover text"
+    hidden
+    data-user="dev"
+    onclick="alert('clicked')">
+  </div>
+
+
+  <!-- ========================= -->
+  <!-- SEMANTIC / EXTRA TAGS -->
+  <!-- ========================= -->
+
+  <details>
+    <summary>Open Me</summary>
+    Hidden content here.
+  </details>
+
+  <progress value="70" max="100"></progress>
+
+  <meter value="0.7"></meter>
+
+  <time datetime="2026-05-16">
+    May 16 2026
+  </time>
+
+  <address>
+    Bhopal, India
+  </address>
+
+</body>
+
+</html>
+```
+
+---
+
+# Most Important Tags You Will Use Daily
+
+```html
+<div>
+<span>
+<h1> to <h6>
+<p>
+<a>
+<img>
+<button>
+<input>
+<form>
+<label>
+<textarea>
+<select>
+<option>
+<ul>
+<ol>
+<li>
+<header>
+<nav>
+<main>
+<section>
+<footer>
+<script>
+<link>
+```
+
+---
+
+# Easy Mental Model
+
+* `<div>` = big box/container
+* `<span>` = small inline text container
+* `<section>` = page chapter
+* `<article>` = independent content
+* `<nav>` = menu links
+* `<form>` = collect user data
+* `<input>` = user typing box
+* `<button>` = clickable action
+* `<a>` = jump to another page
+* `<img>` = show image
+* `<video>` = show video
+* `<ul>` = bullet list
+* `<ol>` = numbered list
+* `<table>` = rows + columns data
+* `<script>` = JavaScript connection
+* `<link>` = CSS connection
